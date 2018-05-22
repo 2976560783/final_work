@@ -22,7 +22,6 @@ class IndexController extends Controller {
         // 读取数据
 
         $search=I('post.search');
-        $select_value=I('post.select_value');
         /*
         $select_value=I('select_value');
         echo $select_value;
@@ -31,12 +30,24 @@ class IndexController extends Controller {
         //$search_man_sql="name=".$search;
         //$id=1;   测试发现可行
         //name='%s'   ''注意啊
+        //where->select()查询无结果？？？
         $search_man_data = $search_man->where("name='%s'",$search)->find();
         if($search_man_data) {
             $this->assign('data',$search_man_data);// 模板变量赋值
-            $this->display('hello');
+            $this->display('search_man');
         }
 
+        $search_song_data = $search_song->where("song='%s'",$search)->select();
+        if($search_song_data){
+            $this->assign('data',$search_song_data);
+            $this->display('search_song');
+        }
+
+        $search_zuanji_data=$search_zuanji->where("zuanji='%s'",$search)->select();
+        if($search_zuanji_data){
+            $this->assign('data',$search_zuanji_data);
+            $this->display('search_zuanji');
+        }
 
     }
     /*

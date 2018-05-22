@@ -22,7 +22,9 @@
 -->
 <form action="/final_work/index.php?s=/Home/Index/read" method="post">
     <input type="text" name="search">
+    <!--
     <input type="hidden" value="select_value" name="select_value">
+    -->
     <input type="submit" value="提交">
 </form>
 

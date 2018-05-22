@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>按歌曲查询</title>
+</head>
+<body>
+<volist name="data" id="vo">
+    歌曲编号：{$vo.id}<br>
+    专辑名：{$vo.zuanji}<br>
+    歌曲风格：{$vo.style}<br>
+    语种：{$vo.language}<br>
+    歌手编号：{$vo.man_id}<br>
+    点播频率：{$vo.sequence}<br>
+</volist>
+
+</body>
+</html>
