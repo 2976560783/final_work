@@ -178,3 +178,1138 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
 
+[ 2018-05-22T18:45:43+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=agsugq9c5h6nukg8qgcse415hg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016621s ]
+
+[ 2018-05-22T18:46:23+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=agsugq9c5h6nukg8qgcse415hg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2018-05-22T18:50:21+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=hkdhmckcqvim2g6jhsvomfa2g4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2018-05-22T18:56:04+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=3abbkg9v3a47dqa62h5ofdhhek
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2018-05-22T19:09:14+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=t97ik0s5qcemlsmsp010udsig7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2018-05-22T19:10:44+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=lonatgb7i9usi8g3fmdr5m1q8u
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2018-05-22T19:14:08+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=46ters5es64q1299rkr68rr36b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001892s ]
+
+[ 2018-05-22T19:15:33+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=39vjivknlbrirgu5vvqk2m17pb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2018-05-22T19:19:53+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=gso3qpoc2c5hq6hvhrqaaa2fs3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2018-05-22T19:20:27+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=gso3qpoc2c5hq6hvhrqaaa2fs3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2018-05-22T19:24:27+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=5flsh8074uevdsanlh14j0kuqq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001838s ]
+
+[ 2018-05-22T19:33:43+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=io3k85votrrl9o6tjgnm6088u3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001666s ]
+
+[ 2018-05-22T19:33:47+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2018-05-22T19:35:31+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=e90nbstjt0dacgn1uhah5cuc2h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2018-05-22T19:35:36+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2018-05-22T19:36:55+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=9jb49lqfh6pca2mtjqas63fu7i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2018-05-22T19:36:59+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2018-05-22T19:37:55+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=9jb49lqfh6pca2mtjqas63fu7i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2018-05-22T20:11:23+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=kqfl96379t9duelptrpc7oshb7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2018-05-22T20:11:29+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+
+[ 2018-05-22T20:11:50+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-05-22T20:12:30+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+
+[ 2018-05-22T20:13:03+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+
+[ 2018-05-22T20:13:41+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) 
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) 
+
+[ 2018-05-22T20:15:01+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `search_man` WHERE ( id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2018-05-22T20:15:23+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `search_man` WHERE ( id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2018-05-22T20:16:05+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `search_man` WHERE ( id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 9 行.
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2018-05-22T20:17:52+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_man` WHERE ( id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 9 行.
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2018-05-22T20:18:50+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=cg4u0sasmtclgk60qen75ga1lo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2018-05-22T20:18:57+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+
+[ 2018-05-22T20:20:33+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=fctjcgtpc7nr2bbmeungk60ror
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2018-05-22T20:20:39+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `search_man` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2018-05-22T20:21:20+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `search_man` WHERE ( name="$search" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: data C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 9 行.
+NOTIC: [8] Undefined variable: data C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2018-05-22T20:21:35+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+
+[ 2018-05-22T20:21:50+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+
+[ 2018-05-22T20:22:45+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `search_man` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2018-05-22T20:23:46+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0012s ]
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+
+[ 2018-05-22T20:24:02+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0013s ]
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+
+[ 2018-05-22T20:27:19+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+
+[ 2018-05-22T20:27:22+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0007s ]
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+
+[ 2018-05-22T20:27:27+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=nkjf0f6hlkgcrt4l114v9i70b5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2018-05-22T20:27:32+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+
+[ 2018-05-22T20:28:44+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_man` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2018-05-22T20:29:32+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0007s ]
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+ERR: 1054:Unknown column '许嵩' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=许嵩 ) LIMIT 1  
+
+[ 2018-05-22T20:30:46+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column '龚正阳' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=龚正阳 ) LIMIT 1  
+ERR: 1054:Unknown column '龚正阳' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_man` WHERE ( name=龚正阳 ) LIMIT 1  
+
+[ 2018-05-22T20:32:49+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `search_test` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0007s ]
+ERR: 1054:Unknown column '龚' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_test` WHERE ( name=龚 ) LIMIT 1  
+ERR: 1054:Unknown column '龚' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `search_test` WHERE ( name=龚 ) LIMIT 1  
+
+[ 2018-05-22T20:33:32+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `search_test` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `search_test` WHERE ( name='龚' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2018-05-22T20:50:23+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=gdhqg06ao59mjbnvli3pddktgb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2018-05-22T20:50:28+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `search_man` WHERE ( name='个' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2018-05-22T20:50:37+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_man` WHERE ( name='龚' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2018-05-22T20:50:51+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_man` WHERE ( name='龚' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2018-05-22T20:52:09+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `search_man` WHERE ( name='龚' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2018-05-22T20:55:41+08:00 ] 127.0.0.1 /final_work/index.php?_ijt=q63dfejt4rrlr0fncshkq0qlcj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2018-05-22T20:55:48+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_man` WHERE ( name='龚' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2018-05-22T20:56:10+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_man` WHERE ( name='龚' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2018-05-22T20:56:26+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_man` WHERE ( name='龚' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: data C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 9 行.
+NOTIC: [8] Undefined variable: data C:\Users\Administrator\Desktop\final_work\Home\Runtime\Cache\Home\0324af8030204b6875cffdd627844d64.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2018-05-22T20:56:37+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_man` WHERE ( name='许嵩' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2018-05-22T20:56:59+08:00 ] 127.0.0.1 /final_work/index.php?s=/Home/Index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `search_man` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `search_song` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `search_zuanji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_man` WHERE ( name='许嵩' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
