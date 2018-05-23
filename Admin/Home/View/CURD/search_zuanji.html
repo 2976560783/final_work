@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>专辑信息</title>
+</head>
+<body>
+
+<p>专辑信息</p>
+<volist name="data" id="vo">
+    id:{$vo.id}<br>
+    歌手姓名:{$vo.man_name}<br>
+    专辑:{$vo.zuanji}<br>
+    <hr>
+</volist>
+
+<form action="__URL__/operate" method="post">
+    请选择一个操作：
+    <input type="radio" name="zuanji_operate" value="create">创建数据
+    <input type="radio" name="zuanji_operate" value="update">更新数据
+    <input type="radio" name="zuanji_operate" value="delete">删除数据
+    <input type="submit" name="sub" value="确认执行本操作">
+</form>
+
+</body>
+</html>

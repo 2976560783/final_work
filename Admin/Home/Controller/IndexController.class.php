@@ -7,30 +7,62 @@ class IndexController extends Controller {
 
         $this->display();
     }
+/*
+    public function operatemmm(){
+        //判断操作表是哪个
+        if(I('post.man_operate')){
+            $data=M('search_man');
+        }elseif(I('post.user_operate')){
+            $data=M('user');
+        }elseif(I('post.song_operate')){
+            $data=M('search_song');
+        }elseif(I('post.zuanji_operate')){
+            $data=M('zuanji');
+        }else{
+            die('数据库增删改查操作有误');
+        }
 
+        //判断选择的操作
+        echo I('post.man_operate');
+
+        //$this->display('select');
+    }
+*/
+/*
     public function operate(){
-        $this->display('select');
+        if(I('post.table')=="user"){
+            $user=M('user');
+            $user_data = $user->select();
+            $this->assign('user_data',$user_data);
+        }elseif(I('post.table')=="search_man"){
+            $search_man=M('search_man');
+            $search_man_data = $search_man->select();
+            $this->assign('search_man_data',$search_man_data);
+        }elseif(I('post.table')=="search_song"){
+            $search_song=M('search_song');
+            $search_song_data = $search_song->select();
+            $this->assign('search_song_data',$search_song_data);
+        }elseif(I('post.table')=="search_zuanji"){
+            $search_zuanji=M('search_zuanji');
+            $search_zuanji_data = $search_zuanji->select();
+            $this->assign('search_zuanji_data',$search_zuanji_data);
+        }else{
+            die('选择表有误');
+        }
+        $this->display();
+    }
+*/
+//以下是上一段代码的改进
+    public function show(){
+        $str=I('post.table');
+        echo $str;
+        $data=M($str);
+        $data_select=$data->select();
+        $this->assign('data',$data_select);
+        $this->display('CURD:'.$str);
     }
 
-    public function show(){
-        $user=M('user');
-        $search_man=M('search_man');
-        $search_song=M('search_song');
-        $search_zuanji=M('search_zuanji');
-
-        $user_data = $user->select();
-        $search_man_data = $search_man->select();
-        $search_song_data = $search_song->select();
-        $search_zuanji_data = $search_zuanji->select();
-
-
-        $this->assign('user_data',$user_data);
-        $this->assign('search_man_data',$search_man_data);
-        $this->assign('search_song_data',$search_song_data);
-        $this->assign('search_zuanji_data',$search_zuanji_data);
-
-        $this->display();
-
-
+    public function test(){
+        echo 'IndexController.class.php';
     }
 }

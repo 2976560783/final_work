@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>歌曲信息</title>
+</head>
+<body>
+<p>歌曲信息</p>
+<volist name="data" id="vo" >
+    id:{$vo.id}<br>
+    歌曲名称:{$vo.song}<br>
+    专辑:{$vo.zuanji}<br>
+    风格：{$vo.style}<br>
+    语言：{$vo.language}<br>
+    歌手ID：{$vo.man_id}<br>
+    点击频率：{$vo.sequence}<br>
+    <hr>
+</volist>
+
+<form action="__URL__/operate" method="post">
+    请选择一个操作：
+    <input type="radio" name="song_operate" value="create">创建数据
+    <input type="radio" name="song_operate" value="update">更新数据
+    <input type="radio" name="song_operate" value="delete">删除数据
+    <input type="submit" name="sub" value="确认执行本操作">
+</form>
+
+</body>
+</html>
