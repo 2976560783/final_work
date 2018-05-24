@@ -15,11 +15,11 @@
     点击频率：<?php echo ($vo["sequence"]); ?><br>
     <hr><?php endforeach; endif; else: echo "" ;endif; ?>
 
-<form action="/final_work/admin.php?s=/Home/Index/operate" method="post">
+<form action="/final_work/admin.php?s=/Home/CURD/operate" method="post">
     请选择一个操作：
-    <input type="radio" name="song_operate" value="create">创建数据
-    <input type="radio" name="song_operate" value="update">更新数据
-    <input type="radio" name="song_operate" value="delete">删除数据
+    <input type="radio" name="choose" value="search_songAdd">创建数据
+    <input type="radio" name="choose" value="search_songUpdate">更新数据
+    <input type="radio" name="choose" value="search_songDelete">删除数据
     <input type="submit" name="sub" value="确认执行本操作">
 </form>
 

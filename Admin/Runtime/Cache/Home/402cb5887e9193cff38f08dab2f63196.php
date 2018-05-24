@@ -1,14 +1,13 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<p>歌曲数据更新</p>
-<form action="__MODULE__/CURD/update" method="post">
+<p>歌曲数据插入</p>
+<form action="/final_work/admin.php?s=/Home/CURD/add" method="post">
     <input type="hidden" name="tableName" value="search_song">
-    id:<input type="text" name="id">
     歌曲名：<input type="text" name="song">
     专辑：<input type="text" name="zuanji">
     风格：<input type="text" name="style">
@@ -17,5 +16,6 @@
     播放频率：<input type="text" name="sequence">
     <input type="submit" value="提交">
 </form>
+
 </body>
 </html>

@@ -14,9 +14,11 @@ class CURDModel extends Model{
     public function update(){
 
     }
+    /*
     protected $_validate    =   array(
         array('name','require','用户名必须'),
     );
+    */
     // 定义自动完成
     protected $_auto    =   array(
         array('create_time','time',1,'function'),

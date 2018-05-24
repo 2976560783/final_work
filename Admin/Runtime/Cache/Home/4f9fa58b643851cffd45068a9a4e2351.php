@@ -12,11 +12,11 @@
     专辑:<?php echo ($vo["zuanji"]); ?><br>
     <hr><?php endforeach; endif; else: echo "" ;endif; ?>
 
-<form action="/final_work/admin.php?s=/Home/Index/operate" method="post">
+<form action="/final_work/admin.php?s=/Home/CURD/operate" method="post">
     请选择一个操作：
-    <input type="radio" name="zuanji_operate" value="create">创建数据
-    <input type="radio" name="zuanji_operate" value="update">更新数据
-    <input type="radio" name="zuanji_operate" value="delete">删除数据
+    <input type="radio" name="choose" value="search_zuanjiAdd">创建数据
+    <input type="radio" name="choose" value="search_zuanjiUpdate">更新数据
+    <input type="radio" name="choose" value="search_zuanjiDelete">删除数据
     <input type="submit" name="sub" value="确认执行本操作">
 </form>
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@
 </head>
 <body>
 <p>歌手数据添加</p>
-<form action="__MODULE__/CURD/add" method="post">
+<form action="/final_work/admin.php?s=/Home/CURD/add" method="post">
     <input type="hidden" name="tableName" value="search_man">
     姓名：<input type="text" name="name">
     性别：<input type="text" name="sex">

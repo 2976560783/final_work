@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,9 +6,8 @@
 </head>
 <body>
 <p>歌手数据删除</p>
-<form action="__MODULE__/CURD/delete" method="post">
+<form action="/final_work/admin.php?s=/Home/CURD/search_manDelete" method="post">
     id:<input type="text" name="id">
-    <input type="hidden" name="tableName" vlaue="search_song">
     <!--
     姓名：<input type="text" name="name" >
     性别：<input type="text" name="sex">

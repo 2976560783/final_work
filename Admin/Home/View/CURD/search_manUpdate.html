@@ -6,7 +6,8 @@
 </head>
 <body>
 <p>歌手数据更新</p>
-<form method="__MODULE__/CURD/search_manUpdate" method="post">
+<form action="__MODULE__/CURD/update" method="post">
+    <input type="hidden" name="tableName" value="search_man">
     id:<input type="text" name="id">
     姓名：<input type="text" name="name" >
     性别：<input type="text" name="sex">

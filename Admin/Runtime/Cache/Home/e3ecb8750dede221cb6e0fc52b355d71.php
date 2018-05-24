@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@
 </head>
 <body>
 <p>专辑数据更新</p>
-<form action="__MODULE__/CURD/update" method="post">
+<form action="/final_work/admin.php?s=/Home/CURD/update" method="post">
     <input type="hidden" name="tableName" value="search_zuanji">
     id:<input type="text" name="id">
     日期：<input type="date" name="date">

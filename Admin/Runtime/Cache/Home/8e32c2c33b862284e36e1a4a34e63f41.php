@@ -14,7 +14,7 @@
        正确：   <form action="/final_work/admin.php?s=/Home/CURD/test" method="post">
   -->
 
-<form action="/final_work/admin.php?s=/Home/CURD/userOperate" method="post">
+<form action="/final_work/admin.php?s=/Home/CURD/operate" method="post">
     请选择一个操作：
     <input type="radio" name="choose" value="userAdd">创建数据
     <input type="radio" name="choose" value="userUpdate">更新数据
