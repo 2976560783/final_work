@@ -10,13 +10,17 @@
     id:{$vo.id}<br>
     姓名：{$vo.name}<br>
     密码:{$vo.password}<br>
+    <hr>
 </volist>
+<!--   正确：   <form action="{:U('CURD/test')}" method="post">
+       正确：   <form action="__MODULE__/CURD/test" method="post">
+  -->
 
-<form action="__CONTROLLER__/test" method="post">
+<form action="__MODULE__/CURD/operate" method="post">
     请选择一个操作：
-    <input type="radio" name="choose" value="create">创建数据
-    <input type="radio" name="choose" value="update">更新数据
-    <input type="radio" name="choose" value="delete">删除数据
+    <input type="radio" name="choose" value="userAdd">创建数据
+    <input type="radio" name="choose" value="userUpdate">更新数据
+    <input type="radio" name="choose" value="userDelete">删除数据
     <input type="submit" name="sub" value="确认执行本操作">
 </form>
 

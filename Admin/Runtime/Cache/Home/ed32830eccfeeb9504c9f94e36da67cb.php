@@ -16,11 +16,11 @@
     公司：<?php echo ($vo["company"]); ?><br>
     <hr><?php endforeach; endif; else: echo "" ;endif; ?>
 
-<form action="/final_work/admin.php?s=/Home/Index/operate" method="post">
+<form action="/final_work/admin.php?s=/Home/CURD/operate" method="post">
     请选择一个操作：
-    <input type="radio" name="man_operate" value="create">创建数据
-    <input type="radio" name="man_operate" value="update">更新数据
-    <input type="radio" name="man_operate" value="delete">删除数据
+    <input type="radio" name="man_operate" value="search_manAdd">创建数据
+    <input type="radio" name="man_operate" value="search_manUpdate">更新数据
+    <input type="radio" name="man_operate" value="search_manDelete">删除数据
     <input type="submit" name="sub" value="确认执行本操作">
 </form>
 
