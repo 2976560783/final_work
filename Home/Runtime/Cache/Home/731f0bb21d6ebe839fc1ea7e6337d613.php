@@ -9,6 +9,14 @@
     歌手名：<?php echo ($vo["name"]); ?><br>
     性别：<?php echo ($vo["sex"]); ?><br>
     歌手地区：<?php echo ($vo["area"]); ?><br>
-    所属公司：<?php echo ($vo["company"]); endforeach; endif; else: echo "" ;endif; ?>
+    所属公司：<?php echo ($vo["company"]); ?>
+    <hr>
+    <form action="/final_work/index.php?s=/Home/Index/collect" method="post">
+        <input type="text" name="man" value="<?php echo ($vo["name"]); ?>">
+        <input type="text" name="user" value="<?php echo session('name'); ?> ">
+        <input type="text" name="song" value="">
+        <input  type="text" name="zuanji" value="">
+        <input type="submit" value="点击收藏">
+    </form><?php endforeach; endif; else: echo "" ;endif; ?>
 </body>
 </html>

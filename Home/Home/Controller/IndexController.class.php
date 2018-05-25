@@ -14,7 +14,7 @@ class IndexController extends Controller {
 
     }
 
-    public function read($search=''){
+    public function read(){
 
         $search_man=M('search_man');
         $search_song=M('search_song');
@@ -49,6 +49,32 @@ class IndexController extends Controller {
             $this->display('search_zuanji');
         }
 
+    }
+
+
+    public function collect(){
+        $username=session('name');
+        if($username){
+            echo $username;
+            $collect=D('collect');
+            if($collect->create()){
+                echo '数据收藏成功';
+                $collect->add();
+                $this->error('收藏成功');
+            }else{
+                $this->error('数据收藏失败');
+            }
+        }else{
+            echo '未登录，不能收藏';
+        }
+
+    }
+    public function showCollect(){
+        $name=session('name');
+        $collect=M('collect');
+        $data=$collect->where("user='%s'",$name)->select();
+        $this->assign('data',$data);
+        $this->display('collect');
     }
     /*
     public function insert(){

@@ -12,6 +12,13 @@
     歌手地区：{$vo.area}<br>
     所属公司：{$vo.company}
     <hr>
+    <form action="__URL__/collect" method="post">
+        <input type="text" name="man" value="{$vo.name}">
+        <input type="text" name="user" value="<?php echo session('name'); ?> ">
+        <input type="text" name="song" value="">
+        <input  type="text" name="zuanji" value="">
+        <input type="submit" value="点击收藏">
+    </form>
 </volist>
 </body>
 </html>

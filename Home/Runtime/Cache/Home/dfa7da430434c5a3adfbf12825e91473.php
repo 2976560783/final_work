@@ -12,7 +12,7 @@
     密码：<input type="password" name="password"><br>
     <input type="submit" value="登录">
 </form>
-<form action="/final_work/index.php?s=/Home/Login/regist" method="post">
+<form action="/final_work/index.php?s=/Home/Login/registTemp" method="post">
     <input type="hidden" name="jump" value="regist">
     <input type="submit" value="注册">
 </form>

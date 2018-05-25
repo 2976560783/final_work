@@ -4,27 +4,34 @@ use Think\Controller;
 class LoginController extends Controller{
     public function login(){
         $user=M('user');
-        $str=I('post.jump');
+        //$str=I('post.jump');
         $password=I('post.password');
-        $name=I('post.name');
+        $name = I('post.name');
         $condition['name']=$name;
         $condition['password']=$password;
 
         $result=$user->where($condition)->find();
         if($result){
             //$this->success('登录成功','Login:index');
+            session('name',$name);
             $this->redirect('Login:index');
         }else{
             $this->error('登录失败，即将返回');
         }
 
+
+    }
+
+    public function registTemp(){
+        $this->display('regist');
     }
 
     public function regist(){
         $user=M('user');
+        echo '准备注册';
         if($user->create()){
             $user->add();
-            $this->success('注册成功','login');
+            $this->success('注册成功','Login:login');
         }else{
             $this->error('注册失败,即将返回注册页面');
         }

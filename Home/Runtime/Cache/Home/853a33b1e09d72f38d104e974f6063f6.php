@@ -11,7 +11,12 @@
     <!--
     <input type="hidden" value="select_value" name="select_value">
     -->
-    <input type="submit" value="提交">
+    <input type="submit" value="搜索">
+</form>
+<hr>
+<br>
+<form action="/final_work/index.php?s=/Home/Index/showCollect" method="post">
+    <input type="submit" value="查询本用户收藏的歌曲，专辑，歌手信息">
 </form>
 </body>
 </html>

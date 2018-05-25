@@ -14,6 +14,14 @@
     点播频率：{$vo.sequence}<br>
     歌手姓名：{$vo.singer}
     <hr>
+    <form action="__URL__/collect" method="post">
+        <input type="hidden" name="table" value="search_song">
+        <input type="text" name="man" value="">
+        <input type="text" name="user" value="<?php echo session('name'); ?> ">
+        <input type="text" name="song" value="{$vo.song}">
+        <input  type="text" name="zuanji" value="">
+        <input type="submit" value="点击收藏">
+    </form>
 </volist>
 
 </body>

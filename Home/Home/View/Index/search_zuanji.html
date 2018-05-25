@@ -10,6 +10,15 @@
     发行日期：{$vo.date}<br>
     歌手名：{$vo.man_name}<br>
     <hr>
+    <form action="__URL__/collect" method="post">
+        <input type="hidden" name="table" value="search_zuanji">
+        <input type="text" name="man" value="">
+        <input type="text" name="user" value="<?php echo session('name'); ?> ">
+        <input type="text" name="song" value="">
+        <input  type="text" name="zuanji" value="{$vo.zuanji}">
+        <input type="submit" value="点击收藏">
+    </form>
 </volist>
+
 </body>
 </html>
