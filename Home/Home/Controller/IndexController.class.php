@@ -10,7 +10,7 @@ class IndexController extends Controller {
         $result=$user->find($id);
         $this->assign('name',$result);
 */
-        $this->display();
+        $this->display('Login:login');
 
     }
 
@@ -31,7 +31,7 @@ class IndexController extends Controller {
         //$id=1;   测试发现可行
         //name='%s'   ''注意啊
         //where->select()查询无结果？？？
-        $search_man_data = $search_man->where("name='%s'",$search)->find();
+        $search_man_data = $search_man->where("name='%s'",$search)->select();
         if($search_man_data) {
             $this->assign('data',$search_man_data);// 模板变量赋值
             $this->display('search_man');

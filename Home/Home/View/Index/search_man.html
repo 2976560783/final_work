@@ -5,11 +5,13 @@
     <title>按歌手查询</title>
 </head>
 <body>
-歌手编号：{$data.id}<br>
-歌手名：{$data.name}<br>
-性别：{$data.sex}<br>
-歌手地区：{$data.area}<br>
-所属公司：{$data.company}
-
+<volist name="data" id="vo">
+    歌手编号：{$vo.id}<br>
+    歌手名：{$vo.name}<br>
+    性别：{$vo.sex}<br>
+    歌手地区：{$vo.area}<br>
+    所属公司：{$vo.company}
+    <hr>
+</volist>
 </body>
 </html>
