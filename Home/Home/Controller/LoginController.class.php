@@ -31,7 +31,7 @@ class LoginController extends Controller{
         echo '准备注册';
         if($user->create()){
             $user->add();
-            $this->success('注册成功','Login:login');
+            $this->redirect('Index/index','','1','注册成功，即将返回登录界面');
         }else{
             $this->error('注册失败,即将返回注册页面');
         }

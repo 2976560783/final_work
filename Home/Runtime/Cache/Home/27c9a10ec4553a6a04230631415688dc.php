@@ -12,7 +12,15 @@
     歌手编号：<?php echo ($vo["man_id"]); ?><br>
     点播频率：<?php echo ($vo["sequence"]); ?><br>
     歌手姓名：<?php echo ($vo["singer"]); ?>
-    <hr><?php endforeach; endif; else: echo "" ;endif; ?>
+    <hr>
+    <form action="/final_work/index.php?s=/Home/Index/collect" method="post">
+        <input type="hidden" name="table" value="search_song">
+        <input type="text" name="man" value="">
+        <input type="text" name="user" value="<?php echo session('name'); ?> ">
+        <input type="text" name="song" value="<?php echo ($vo["song"]); ?>">
+        <input  type="text" name="zuanji" value="">
+        <input type="submit" value="点击收藏">
+    </form><?php endforeach; endif; else: echo "" ;endif; ?>
 
 </body>
 </html>
