@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<p>请输入歌手，或者歌曲，或者专辑名称</p>
+<p>请输入歌手，或者歌曲，或者专辑名称进行搜索</p>
 <form action="/final_work/index.php?s=/Home/Index/read" method="post">
     <input type="text" name="search">
     <!--

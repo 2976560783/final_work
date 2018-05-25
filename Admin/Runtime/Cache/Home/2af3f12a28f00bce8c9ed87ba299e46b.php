@@ -6,8 +6,14 @@
 </head>
 <body>
 <p>歌手数据删除</p>
-<form action="/final_work/admin.php?s=/Home/CURD/search_manDelete" method="post">
+<!--
+<form action="/final_work/admin.php?s=/Home/CURD/delete" method="post">
     id:<input type="text" name="id">
+    <input type="hidden" name="tableName" vlaue="search_man">
+    -->
+<form action="/final_work/admin.php?s=/Home/CURD/delete" method="post">
+    id:<input type="text" name="id">
+    <input type="hidden" name="tableName" value="search_man">
     <!--
     姓名：<input type="text" name="name" >
     性别：<input type="text" name="sex">

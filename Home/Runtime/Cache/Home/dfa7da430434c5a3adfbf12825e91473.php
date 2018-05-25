@@ -6,6 +6,7 @@
 </head>
 <body>
 <p>用户登录</p>
+<p>若没有账号并且不想注册的盆友，可以直接按登录键登录</p>
 <form action="/final_work/index.php?s=/Home/Login/login" method="post">
     <input type="hidden" name="jump" value="index">
     用户名：<input type="text" name="name"><br>

@@ -7,6 +7,9 @@ class IndexController extends Controller {
 
         $this->display('Login:login');
     }
+    public function admin(){
+        $this->display('index');
+    }
 /*
     public function operatemmm(){
         //判断操作表是哪个

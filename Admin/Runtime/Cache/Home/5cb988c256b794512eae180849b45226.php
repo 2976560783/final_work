@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<p>歌曲数据更新</p>
+<p>歌曲数据更新，id必须填写</p>
 <form action="/final_work/admin.php?s=/Home/CURD/update" method="post">
     <input type="hidden" name="tableName" value="search_song">
     id:<input type="text" name="id">

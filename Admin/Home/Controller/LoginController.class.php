@@ -10,7 +10,7 @@ class LoginController extends Controller{
         $condition['password']=$password;
         $result=$user->where($condition)->find();
         if($result){
-            $this->success('登录成功','Index:index');
+            $this->redirect('Index/admin','','1','验证通过');
         }else{
             $this->error('用户名或者密码错误');
         }

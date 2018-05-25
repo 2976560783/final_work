@@ -7,8 +7,8 @@
 <body>
 <p>请输入正确的用户名和密码</p>
 <form action="/final_work/admin.php?s=/Home/Login/login" method="post">
-    用户名<input type="text" name="name">
-    密码<input type="password" name="password">
+    用户名<input type="text" name="name"><br>
+    密码<input type="password" name="password"><br>
     <input type="submit" value="提交">
 </form>
 </body>

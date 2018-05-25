@@ -20,6 +20,7 @@
     <input type="radio" name="choose" value="search_songAdd">创建数据
     <input type="radio" name="choose" value="search_songUpdate">更新数据
     <input type="radio" name="choose" value="search_songDelete">删除数据
+    <br>
     <input type="submit" name="sub" value="确认执行本操作">
 </form>
 

@@ -20,9 +20,9 @@ class CURDController extends Controller{
             echo $str.'表单元素创建成功'."<br>";
             $user->add();
         }else{
-            $this->redirect('Index/index','','3','表单元素创建失败');
+            $this->redirect('Index/admin','','3','表单元素创建失败');
         }
-        $this->redirect('Index/index','','1','操作成功，即将返回主页');
+        $this->redirect('Index/admin','','1','操作成功，即将返回主页');
     }
 
     //所有表的更新操作
@@ -32,22 +32,23 @@ class CURDController extends Controller{
         $user =D($str);
         if($user->create()){
             $user->save();
-            $this->redirect('Index/index','','1','操作成功，即将返回主页');
+            $this->redirect('Index/admin','','1','操作成功，即将返回主页');
         }else{
             echo '本表的表创建失败'."<br>";
-            $this->redirect('Index/index','','2','即将返回主页');
+            $this->redirect('Index/admin','','2','即将返回主页');
         }
     }
     //所有表的删除操作
     public function delete(){
         $tableName=I('post.tableName');
+        echo $tableName;
         $id=I('post.id');
         $table=M($tableName);
-        if($id){
+        if($id && $table){
             $table->where("id=$id")->delete();
-            $this->redirect('Index/index','','1','操作成功，即将返回主页');
+            $this->redirect('Index/admin','','1','操作成功，即将返回主页');
         }else{
-            $this->redirect('Index/index','','3','user 表    由于没有输入数据，即将返回主页');
+            $this->redirect('Index/admin','','3','user 表    由于没有输入数据，即将返回主页');
         }
     }
 

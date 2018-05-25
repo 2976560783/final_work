@@ -6,7 +6,7 @@
 </head>
 <body>
 <p>后台主页</p>
-<form action="/final_work/admin.php?s=/Home/Login/show" method="post">
+<form action="/final_work/admin.php?s=/Home/Index/show" method="post">
     选择操作的表
     <input type="radio" name="table" value="user">用户
     <input type="radio" name="table" value="search_man">歌手
