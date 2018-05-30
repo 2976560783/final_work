@@ -11,8 +11,10 @@
     <input type="hidden" name="jump" value="index">
     用户名：<input type="text" name="name"><br>
     密码：<input type="password" name="password"><br>
+    <hr>
     <input type="submit" value="登录">
 </form>
+<hr>
 <form action="/final_work/index.php?s=/Home/Login/registTemp" method="post">
     <input type="hidden" name="jump" value="regist">
     <input type="submit" value="注册">
